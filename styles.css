@@ -1,0 +1,99 @@
+body {
+    
+    background-color:black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contenedor-post {
+    background-color: white;
+    width: 400px;
+    height: 530px;
+    margin: auto;
+}
+
+#contenedor-header {
+    width: 100%;
+    background-color: white;
+}
+
+#img-body {
+    width: 100%;
+    height: fill;
+}
+
+#contendor-footer {
+    width: 100%;
+    background-color: white;
+    
+}
+img {
+    width: 100%;
+    height: 100%;
+    margin-top: -20px;
+    
+}
+.alinear-elementos-izquierda-derecha {
+display: inline-flex;
+}
+
+.elementos-izquierda-top{
+    display: inline;
+    margin-top: 20px;
+    width: auto;
+    position: relative;
+    float: left;
+    right: -10px;
+
+}
+.top-text-elements{
+    display: inline-flex;
+    margin-top: -2px;
+    width: auto;
+    position: relative;
+    float: right;
+    right: -20px;
+    flex-direction: column;
+    align-content: space-between;
+    margin-bottom: 25px;
+    font-size: 8px;
+    font-weight:bolder;
+}
+
+#name {
+    margin-top: -10px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.elementos-izquierda-bottom{
+    display: inline;
+    margin-top: 15px;
+    width: auto;
+    position: relative;
+    float: left;
+    right: -10px;
+
+}
+.elemento-derecha-bottom{
+    display: inline;
+    position: relative;
+    margin-top: 15px;
+    float: right;
+    left: 260px;
+    
+}
+.elemento-derecha-top{
+    display: inline;
+    position: relative;
+    margin-top: 20px;
+    float: right;
+    left: 350px;
+    scale: 200%;
+}
+#text{
+
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: small;
+    margin-top: 30px;
+}
