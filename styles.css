@@ -18,7 +18,8 @@ body {
 
 #img-body {
     width: 100%;
-    height: fill;
+   
+   
 }
 
 #contendor-footer {
@@ -28,12 +29,13 @@ body {
 }
 img {
     width: 100%;
-    height: 100%;
-    margin-top: -20px;
+    
+    margin-bottom: 5px;
     
 }
 .alinear-elementos-izquierda-derecha {
 display: inline-flex;
+
 }
 
 .elementos-izquierda-top{
@@ -42,27 +44,34 @@ display: inline-flex;
     width: auto;
     position: relative;
     float: left;
-    right: -10px;
+    left: 10px;
 
 }
 .top-text-elements{
-    display: inline-flex;
-    margin-top: -2px;
+    display: inline;
+    margin-top: 5px;
     width: auto;
     position: relative;
     float: right;
-    right: -20px;
-    flex-direction: column;
-    align-content: space-between;
-    margin-bottom: 25px;
+    left: 20px;
+   flex-direction: column;
+  align-content: flex-start;
+    margin-bottom: 0px;
     font-size: 8px;
     font-weight:bolder;
+
 }
 
 #name {
-    margin-top: -10px;
+    position: relative;
+   align-self: start;
+   justify-content: start;
+    margin-bottom: 0px;
     font-size: 18px;
     font-weight: lighter;
+    padding-bottom: 10px;
+    bottom: 10px;
+
 }
 
 .elementos-izquierda-bottom{
